@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.schoolofrock.MainActivity">
+    <item
+        android:id="action_like"
+        android:title="@string/action_like"
+        app:showAsAction="always"
+        android:onClick="like"/>
+    <item
+        android:id="action_dislike"
+        android:title="@string/action_dislike"
+        app:showAsAction="always"
+        android:onClick="dislike"/>
+</menu>
